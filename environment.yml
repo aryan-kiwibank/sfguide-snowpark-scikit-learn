@@ -1,6 +1,6 @@
 name: snowpark_scikit_learn
 channels:
-  - https://repo.anaconda.com/pkgs/snowflake/
+  - https://repo.anaconda.com/pkgs/snowflake
   - nodefaults
 dependencies:
   - python=3.10
