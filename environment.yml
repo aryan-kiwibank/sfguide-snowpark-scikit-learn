@@ -1,13 +1,17 @@
 name: snowpark_scikit_learn
 channels:
-  - https://repo.anaconda.com/pkgs/snowflake
+  - https://repo.anaconda.com/pkgs/snowflake/
   - nodefaults
 dependencies:
-  - python=3.10
+  - python=3.8
   - pip
-  - snowflake-snowpark-python==1.23.0
-  - snowflake-ml-python==1.6.4
-  - snowflake==1.0.0
+  - snowflake-snowpark-python
   - ipykernel
+  - pyarrow
+  - numpy
+  - scikit-learn
+  - pandas
+  - joblib
+  - cachetools
   - matplotlib
   - seaborn
